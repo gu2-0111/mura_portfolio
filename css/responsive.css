@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+    nav {
+      left: -220px;
+      width: 220px;
+    }
+}
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .image-slab {
+        height: 350px;
+    }
+}

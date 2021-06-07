@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mura-LOG | programmer</title>
+  </head>
+  <body>
+
+    <div class="navbar navbar-expand-lg container navbar-dark">
+	    <a class="navbar-brand" href="#">Mura-LOG</a>
+    </div>
+
+    <div id="js-nav">
+      <nav>
+        <div class="inner">
+          <ul>
+            <li>
+              <a class="menu-contents" href="#">HOME</a>
+            </li>
+            <li>
+              <a class="menu-contents" href="#about">ABOUT</a>
+            </li>
+            <li>
+              <a class="menu-contents" href="#works">WORKS</a>
+            </li>
+            <li>
+              <a class="menu-contents" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+          <!-- sns-icons -->
+          <div class="sns-icons">
+            <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram-square fa-lg"></i></a>
+            <a href="#"><i class="fab fa-youtube-square fa-lg"></i></a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="toggle_btn">
+        <span class="inner_line" id="menu-line1"></span>
+        <span class="inner_line" id="menu-line2"></span>
+        <span class="inner_line" id="menu-line3"></span>
+      </div>
+
+      <div id="mask"></div>
+    </div>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+          <p class="sub-title">ABOUT</p>
+          </div>
+          
+          <div class="col-12">
+            <p class="about-intro">システム開発にこだわりを。</p>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <ul>
+              <li>
+                名前：村井 亮太
+              </li>
+              <li>
+                拠点：福岡県
+              </li>
+              <li>
+                学歴：九州工業大学 情報工学部卒
+              </li>
+              <li>
+                活動：大手IT企業にてWebアプリケーション開発（現在）
+              </li>
+              <li>
+                言語：<br>
+                フロントエンド…HTML、CSS、Javascript<br>
+                バックエンド…PHP、Java(JSP)、Python、SQL
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <section id="works">
+	    <div class="container">
+
+        <div class="col-12">
+          <p class="sub-title">Works</p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="image-slab" style="background-image: url('images/meeting.jpg')">
+              <a href="#">
+                <h3>Webアプリケーション with Java</h3>
+                <p class="sub">現職プロジェクト（Java、PostgresSQL）</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="image-slab" style="background-image: url('images/laptop.jpg')">
+              <a href="#">
+                <h3>Webサイト／システム開発</h3>
+                <p class="sub">Coming Soon.</p>
+              </a>						
+            </div>
+          </div>
+        </div>
+
+	    </div>				
+    </section>
+    
+    <section id="contact">
+	    <div class="container">
+
+		    <div class="row">
+			    <div class="col-12">
+					  <p class="sub-title">CONTACT</p>
+			    </div>
+			    
+			    <div class="col-md">	   
+				    <form method="post" action="index.php">
+              <div class="form-row">
+                <div class="col-12">
+                  <label>氏名</label>
+                  <input type="text" name="sender" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label>メールアドレス</label>
+                  <input type="email" name="senderEmail" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label>ご依頼内容</label>
+                  <textarea rows="3" cols="20" name="message" class="form-control"></textarea>
+                </div>
+                <div class="col-12">
+                  <input type="submit" name="submit">
+                </div>
+              </div>
+				    </form>
+			    </div>
+		    </div>
+
+	    </div>
+    </section>
+    
+    <footer>
+	    <div class="container">
+		    <p class="copy">&copy; 2021 Mura-LOG / All Rights Reserved</p>
+	    </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	<!--<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-42899893-1', 'mikeinghamdesign.com');
+	  ga('send', 'pageview');
+	</script>-->
+  </body>
+</html>
